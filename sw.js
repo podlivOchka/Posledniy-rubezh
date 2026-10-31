@@ -1,5 +1,5 @@
 // Offline cache: game files are stored on install; anything else (the font) is cached the first time it loads.
-const CACHE = 'rubezh3d-v1';
+const CACHE = 'rubezh3d-v2';
 const FILES = ['./', './index.html', './three.min.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))); self.skipWaiting(); });
 self.addEventListener('activate', e => {
