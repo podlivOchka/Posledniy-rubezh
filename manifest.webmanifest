@@ -1,0 +1,16 @@
+{
+  "name": "Последний Рубеж 3D",
+  "short_name": "Рубеж 3D",
+  "description": "Шутер от первого лица: держи площадь посёлка против волн зомби.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#0a0e18",
+  "theme_color": "#0a0e18",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
